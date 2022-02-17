@@ -1,0 +1,19 @@
+{% extends 'first/main.html' %}
+
+{% block title %}Новости{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Новостная лента</h1>
+        {% if news %}
+           {% for el in news %}
+              <div class="alert alert-primary">
+                  <h3>{{el.title}}</h3>
+                  <p>{{el.anans}}</p>
+              </div>
+           {% endfor %}
+        {% else %}
+        <p>Новости отсутствуют</p>
+        {% endif %}
+    </div>
+{% endblock %}
