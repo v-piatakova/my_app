@@ -18,13 +18,12 @@
     <span class="logo">RoundAir</span>
     <h3>Navigation</h3>
     <ul>
-
-        <a href="{% url 'home' %}"><li><i class="fa-solid fa-circle-info"></i>Главная</li></a>
-        <a href="{% url 'about' %}"><li><i class="fa-solid fa-circle-info"></i> Информация</li></a>
-        <a href="{% url 'news_home' %}"><li><i class="fa-solid fa-circle-info"></i>Новости</li></a>
-        <a href="/"><li><i class="fa-solid fa-address-card"></i> Контакты</li></a>
-        <a href="{% url 'create' %}"><li><botton class="btn btn-warning"><i class='fas fa-plus-circle'></i>Добавить запись</botton></li></a>
-
+        <a href="{% url 'home' %}"><li><i class="fa fa-user fa-fw"></i> Главная </li></a>
+        <a href="{% url 'about' %}"><li><i class="fa fa-info fa-fw"></i>Информация </li></a>
+        <a href="{% url 'news_home' %}"><li><i class="fa fa-list fa-fw"></i> Новости </li></a>
+        <a href="/"><li><i class="fa fa-address-card fa-fw"></i> Контакты</li></a>
+        <a href="/"><li><i class="fa fa-cog fa-spin fa fa-fw"></i> Настройки </li></a>
+        <a href="{% url 'create' %}"><li><button class="btn btn-warning"><i class='fa fa-plus-circle fa'></i>Добавить запись</button></li></a>
     </ul>
 </aside>
 <main class="features">
