@@ -7,10 +7,12 @@
         <h1>Форма добавления</h1>
       <form method='post'>
           {% csrf_token %}
-        <input type="text" placeholder="Название поста" class="form-control"><br>
-        <input type="text" placeholder="Анонс" class="form-control"><br>
-        <textarea class="form-control" placeholder="Текст"></textarea><br>
-        <button class="btn btn-success" type="submit ">Добавить пост</button>
+              <p>{{ form.title }}</p><br>
+              <p>{{ form.anans }}</p><br>
+              <p>{{ form.text }}</p><br>
+              <p>{{ form.data_time }}</p><br>
+          <span>{{ error }}</span>
+        <button class="btn btn-success" type="submit">Добавить пост</button>
       </form>
     </div>
 {% endblock %}

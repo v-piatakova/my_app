@@ -2,20 +2,23 @@ body{
     background: #2c2c2c;
 }
 
+
 aside{
     float: left;
     background: #181818;
     width:20%;
     padding:2%;
-    height:100vh;
+    height:200vh;
     border-right: 5px solid #4d4d4d;
     color: #ffffff;
 }
+
 
 aside img {
     width:80px;
     float:left;
 }
+
 
 aside .logo{
     font-size: 30px;
@@ -25,14 +28,17 @@ aside .logo{
     top:15px;
 }
 
+
 aside h3{
     margin-top: 60px;
     font-size: 25px;
 }
 
+
 aside ul{
     list-style: none;
 }
+
 
 aside ul li{
     color: #ffffff;
@@ -41,18 +47,24 @@ aside ul li{
     transition: transform .6s ease;
 }
 
+aside.icons{
+  color: #ffffff;
+}
+
+
+
 aside ul li:hover, aside ul a:hover{
     color: #4169E1;
     text-decoration: none;
     transform: scale(1.05);
 }
+
  main .features {
     float: left;
     color: #ffffff;
-    margin-top: 100px;
+    margin-top: 50px;
      text-align: center;
-     width: 75%;
-
+     width: 70%;
 }
 
  main .features h1{
@@ -61,19 +73,29 @@ aside ul li:hover, aside ul a:hover{
 
  main .features p{
      max-width: 400px;
-     margin: 20px auto;
+     margin: 15px auto;
  }
 
 .alert-primary{
-     float: left;
+     float: right;
      clear: both;
      width: 400px;
-     margin: 20px 35%;
+     margin: 30px 30%;
      text-align: left;
+
  }
 
 form{
-    margin-left: 27%;
+    margin-left: 24%;
     width: 500px;
     margin-top: 50px;
 }
+
+form p{
+    width: 400px;
+}
+
+
+
+
+
